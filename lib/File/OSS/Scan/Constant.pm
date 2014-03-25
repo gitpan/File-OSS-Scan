@@ -4,7 +4,7 @@ File::OSS::Scan::Constant - define constants
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -42,7 +42,7 @@ package File::OSS::Scan::Constant;
 use strict;
 use warnings FATAL => 'all';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw(Exporter);
 

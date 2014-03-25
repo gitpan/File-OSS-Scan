@@ -4,7 +4,7 @@ File::OSS::Scan::Matches - store scan result about file matches
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -67,7 +67,7 @@ use JSON;
 
 use File::OSS::Scan::Constant qw(:all);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 # global var ...
 our $matches = undef;

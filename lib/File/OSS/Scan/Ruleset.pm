@@ -4,7 +4,7 @@ File::OSS::Scan::Ruleset - initialize the scan rules
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -52,7 +52,7 @@ use Data::Dumper; # for debug
 
 use File::OSS::Scan::Constant qw(:all);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my $cfg_default = $ENV{OSSSCAN_CONFIG} || ".ossscan.rc";
 my @valid_sections = qw/GLOBAL FILE DIRECTORY LINE/;

@@ -4,7 +4,7 @@ File::OSS::Scan - Scan the repository of project and detect any OSS ( Open Sourc
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -277,7 +277,7 @@ use File::OSS::Scan::Ruleset;
 use File::OSS::Scan::Matches;
 use File::OSS::Scan::Cache;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(scan_init scan_execute scan_result clear_cache);

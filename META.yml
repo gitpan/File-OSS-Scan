@@ -21,6 +21,7 @@ requires:
   Cache::FileCache: 0
   File::Basename: 0
   File::Copy: 0
+  JSON: 0
   Test::More: 0
   perl: 5.006
-version: 0.03
+version: 0.04

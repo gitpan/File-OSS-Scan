@@ -24,6 +24,7 @@ WriteMakefile(
                            'File::Copy' => 0,
                            'File::Basename' => 0,
                            'Cache::FileCache' => 0,
+                           'JSON' => 0,
                             },
     'dist'                  => { 'COMPRESS' => 'gzip', 'SUFFIX' => 'gz' },
     'clean'                 => { 'FILES' => 'File-OSS-Scan-*' },

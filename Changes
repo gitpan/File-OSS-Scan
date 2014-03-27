@@ -8,3 +8,6 @@ List of significant changes to File::OSS::Scan
 
 0.03	2014.03.25
 		remove MYMETA.json and MYMETA.yml files from the dist
+
+0.04    2014.03.27
+        add JSON as a prerequisite module in Makefile.PL
